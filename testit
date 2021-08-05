@@ -1,0 +1,16 @@
+set -x
+rm out*.txt
+rm built/*
+python test.py -s mississippi -st built/mississippi out1.txt tests/mississippi.txt 1
+python verify_st.py -s mississippi -st built/mississippi --seed 77 -n 20
+python test.py -s fjasjdfjasdjfjasdjfajsdjfajsdjfasdjjj -st built/test2 out2.txt tests/junk2.txt 1
+python verify_st.py -s fjasjdfjasdjfjasdjfajsdjfajsdjfasdjjj -st built/test2 --seed 0 -n 100
+python test.py -s ajsjdjfjsajjajsdfjasjdfjasjdfjasjdfjasdjfjasdjfajsdjfajsdjfasdjjj -st built/test3 out3.txt tests/junk3.txt 1
+python verify_st.py -s ajsjdjfjsajjajsdfjasjdfjasjdfjasjdfjasdjfjasdjfajsdjfajsdjfasdjjj -st built/test3 --seed 0 -n 500
+python test.py -f tests/15kg.txt -st built/15kg out4.txt tests/junk4.txt 1
+python verify_st.py -f tests/15kg.txt -st built/15kg --seed 0 -n 1000
+python test.py --fasta /Users/johannesjohannsen/Desktop/genomes/primates/Gorilla_gorilla/chr1.fa --slice 2:5 -st built/slice_2_5 slice_2_5.txt tests/slice_2_5.txt 1
+python test.py --fasta /Users/johannesjohannsen/Desktop/genomes/primates/Gorilla_gorilla/chr1.fa --slice 4:7 -st built/slice_4_7 slice_4_7.txt tests/slice_4_7.txt 1
+python visualize.py --suffixtree built/slice_2_5 --fasta /Users/johannesjohannsen/Desktop/genomes/primates/hg38/chr1.fa --slice 2:5 -d 10 --output-file built/visout.pickle > visualize.txt
+
+

@@ -1,0 +1,197 @@
+_traverse_value(0, f): ..
+_add_leaf(0, f): .1 Leaf added.
+_goto_suffix(0, f): ..
+_traverse_value(1, j): ..
+_add_leaf(1, j): .1 Leaf added.
+_goto_suffix(1, j): ..
+_traverse_value(2, a): ..
+_add_leaf(2, a): .1 Leaf added.
+_goto_suffix(2, a): ..
+_traverse_value(3, s): ..
+_add_leaf(3, s): .1 Leaf added.
+_goto_suffix(3, s): ..
+_traverse_value(4, j): ..Leaf s1, iESO=1, iEO=1
+_traverse_value(5, d): ..
+_split_leaf_edge(5, d): 1 Internal added..Internal i1
+_add_leaf(5, d): .1 Leaf added.
+_goto_suffix(5, d): ..Internal i0
+_traverse_value(5, d): ..
+_add_leaf(5, d): .1 Leaf added.
+_goto_suffix(5, d): ..
+_traverse_value(6, f): ..Leaf s0, iESO=0, iEO=1
+_traverse_value(7, j): ..Leaf s0, iESO=0, iEO=2
+_traverse_value(8, a): ..Leaf s0, iESO=0, iEO=3
+_traverse_value(9, s): ..Leaf s0, iESO=0, iEO=4
+_traverse_value(10, d): ..
+_split_leaf_edge(10, d): 1 Internal added..Internal i2
+_add_leaf(10, d): .1 Leaf added.
+_goto_suffix(10, d): ..Internal i0
+_skip_count_down(10, d): ..Leaf s1, iESO=2, iEO=2
+_traverse_value(10, d): ..
+_split_leaf_edge(10, d): 1 Internal added..Internal i3
+_add_leaf(10, d): .1 Leaf added.
+_goto_suffix(10, d): ..Internal i0
+_skip_count_down(10, d): ..Leaf s2, iESO=2, iEO=2
+_traverse_value(10, d): ..
+_split_leaf_edge(10, d): 1 Internal added..Internal i4
+_add_leaf(10, d): .1 Leaf added.
+_goto_suffix(10, d): ..Internal i0
+_skip_count_down(10, d): ..Leaf s3, iESO=3, iEO=1
+_traverse_value(10, d): ..
+_split_leaf_edge(10, d): 1 Internal added..Internal i5
+_add_leaf(10, d): .1 Leaf added.
+_goto_suffix(10, d): ..Internal i0
+_traverse_value(10, d): ..Leaf s5, iESO=5, iEO=1
+_traverse_value(11, j): ..
+_split_leaf_edge(11, j): 1 Internal added..Internal i6
+_add_leaf(11, j): .1 Leaf added.
+_goto_suffix(11, j): ..Internal i0
+_traverse_value(11, j): ..Internal i1
+_traverse_value(12, f): ..
+_add_leaf(12, f): .1 Leaf added.
+_goto_suffix(12, f): ..Internal i0
+_traverse_value(12, f): ..Internal Edge i2, iESO=0, iEO=1
+_traverse_value(13, j): ..Internal Edge i2, iESO=0, iEO=2
+_traverse_value(14, a): ..Internal Edge i2, iESO=0, iEO=3
+_traverse_value(15, s): ..Internal i2
+_traverse_value(16, d): ..Leaf s6, iESO=10, iEO=1
+_traverse_value(17, j): ..Leaf s6, iESO=10, iEO=2
+_traverse_value(18, f): ..Leaf s6, iESO=10, iEO=3
+_traverse_value(19, a): ..
+_split_leaf_edge(19, a): 1 Internal added..Internal i7
+_add_leaf(19, a): .1 Leaf added.
+_goto_suffix(19, a): ..Internal i3
+_skip_count_down(19, a): ..Leaf s7, iESO=10, iEO=3
+_traverse_value(19, a): ..
+_split_leaf_edge(19, a): 1 Internal added..Internal i8
+_add_leaf(19, a): .1 Leaf added.
+_goto_suffix(19, a): ..Internal i4
+_skip_count_down(19, a): ..Leaf s8, iESO=10, iEO=3
+_traverse_value(19, a): ..
+_split_leaf_edge(19, a): 1 Internal added..Internal i9
+_add_leaf(19, a): .1 Leaf added.
+_goto_suffix(19, a): ..Internal i5
+_skip_count_down(19, a): ..Leaf s9, iESO=10, iEO=3
+_traverse_value(19, a): ..
+_split_leaf_edge(19, a): 1 Internal added..Internal i10
+_add_leaf(19, a): .1 Leaf added.
+_goto_suffix(19, a): ..Internal i0
+_skip_count_down(19, a): ..Leaf s10, iESO=11, iEO=2
+_traverse_value(19, a): ..
+_split_leaf_edge(19, a): 1 Internal added..Internal i11
+_add_leaf(19, a): .1 Leaf added.
+_goto_suffix(19, a): ..Internal i0
+_skip_count_down(19, a): ..Leaf s11, iESO=12, iEO=1
+_traverse_value(19, a): ..
+_split_leaf_edge(19, a): 1 Internal added..Internal i12
+_add_leaf(19, a): .1 Leaf added.
+_goto_suffix(19, a): ..Internal i0
+_skip_count_down(19, a): ..Internal Edge i2, iESO=0, iEO=1
+_traverse_value(19, a): ..
+_split_internal_edge(19, a): 1 Internal added..Internal i13
+_add_leaf(19, a): .1 Leaf added.
+_goto_suffix(19, a): ..Internal i0
+_traverse_value(19, a): ..Internal Edge i4, iESO=2, iEO=1
+_traverse_value(20, j): ..
+_split_internal_edge(20, j): 1 Internal added..Internal i14
+_add_leaf(20, j): .1 Leaf added.
+_goto_suffix(20, j): ..Internal i0
+_traverse_value(20, j): ..Internal i1
+_traverse_value(21, s): ..
+_add_leaf(21, s): .1 Leaf added.
+_goto_suffix(21, s): ..Internal i0
+_traverse_value(21, s): ..Internal i5
+_traverse_value(22, d): ..Internal Edge i10, iESO=10, iEO=1
+_traverse_value(23, j): ..Internal Edge i10, iESO=10, iEO=2
+_traverse_value(24, f): ..Internal i10
+_traverse_value(25, a): ..Leaf s15, iESO=19, iEO=1
+_traverse_value(26, j): ..Leaf s15, iESO=19, iEO=2
+_traverse_value(27, s): ..Leaf s15, iESO=19, iEO=3
+_traverse_value(28, d): ..Leaf s15, iESO=19, iEO=4
+_traverse_value(29, j): ..Leaf s15, iESO=19, iEO=5
+_traverse_value(30, f): ..Leaf s15, iESO=19, iEO=6
+_traverse_value(31, a): ..Leaf s15, iESO=19, iEO=7
+_traverse_value(32, s): ..
+_split_leaf_edge(32, s): 1 Internal added..Internal i15
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i11
+_skip_count_down(32, s): ..Leaf s16, iESO=19, iEO=7
+_traverse_value(32, s): ..
+_split_leaf_edge(32, s): 1 Internal added..Internal i16
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i12
+_skip_count_down(32, s): ..Leaf s17, iESO=19, iEO=7
+_traverse_value(32, s): ..
+_split_leaf_edge(32, s): 1 Internal added..Internal i17
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i13
+_skip_count_down(32, s): ..Leaf s18, iESO=19, iEO=7
+_traverse_value(32, s): ..
+_split_leaf_edge(32, s): 1 Internal added..Internal i18
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i0
+_skip_count_down(32, s): ..Leaf s19, iESO=20, iEO=6
+_traverse_value(32, s): ..
+_split_leaf_edge(32, s): 1 Internal added..Internal i19
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i0
+_skip_count_down(32, s): ..Leaf s20, iESO=21, iEO=5
+_traverse_value(32, s): ..
+_split_leaf_edge(32, s): 1 Internal added..Internal i20
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i0
+_skip_count_down(32, s): ..Internal Edge i15, iESO=19, iEO=1
+_traverse_value(32, s): ..
+_split_internal_edge(32, s): 1 Internal added..Internal i21
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i11
+_skip_count_down(32, s): ..Internal Edge i16, iESO=19, iEO=1
+_traverse_value(32, s): ..
+_split_internal_edge(32, s): 1 Internal added..Internal i22
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i12
+_skip_count_down(32, s): ..Internal Edge i17, iESO=19, iEO=1
+_traverse_value(32, s): ..
+_split_internal_edge(32, s): 1 Internal added..Internal i23
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i13
+_skip_count_down(32, s): ..Internal Edge i18, iESO=19, iEO=1
+_traverse_value(32, s): ..
+_split_internal_edge(32, s): 1 Internal added..Internal i24
+_add_leaf(32, s): .1 Leaf added.
+_goto_suffix(32, s): ..Internal i0
+_skip_count_down(32, s): ..Internal i14
+_traverse_value(32, s): ..Internal i4
+_traverse_value(33, d): ..Internal Edge i9, iESO=10, iEO=1
+_traverse_value(34, j): ..Internal Edge i9, iESO=10, iEO=2
+_traverse_value(35, j): ..
+_split_internal_edge(35, j): 1 Internal added..Internal i25
+_add_leaf(35, j): .1 Leaf added.
+_goto_suffix(35, j): ..Internal i5
+_skip_count_down(35, j): ..Internal Edge i10, iESO=10, iEO=2
+_traverse_value(35, j): ..
+_split_internal_edge(35, j): 1 Internal added..Internal i26
+_add_leaf(35, j): .1 Leaf added.
+_goto_suffix(35, j): ..Internal i0
+_skip_count_down(35, j): ..Internal Edge i11, iESO=11, iEO=1
+_traverse_value(35, j): ..
+_split_internal_edge(35, j): 1 Internal added..Internal i27
+_add_leaf(35, j): .1 Leaf added.
+_goto_suffix(35, j): ..Internal i0
+_skip_count_down(35, j): ..Internal i1
+_traverse_value(35, j): ..
+_add_leaf(35, j): .1 Leaf added.
+_goto_suffix(35, j): ..Internal i0
+_traverse_value(35, j): ..Internal i1
+_traverse_value(36, j): ..Leaf s34, iESO=35, iEO=1
+_traverse_value(37, $): ..
+_split_leaf_edge(37, $): 1 Internal added..Internal i28
+_add_leaf(37, $): .1 Leaf added.
+_goto_suffix(37, $): ..Internal i0
+_skip_count_down(37, $): ..Internal i1
+_traverse_value(37, $): ..
+_add_leaf(37, $): .1 Leaf added.
+_goto_suffix(37, $): ..Internal i0
+_traverse_value(37, $): ..
+_add_leaf(37, $): .1 Leaf added.
+_goto_suffix(37, $): ..

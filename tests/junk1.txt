@@ -1,0 +1,175 @@
+_traverse_value(0, f): Internal unchanged, Leaf unchanged, No change
+_add_leaf(0, f): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(1, j): Internal unchanged, Leaf unchanged, No change
+_add_leaf(1, j): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(2, a): Internal unchanged, Leaf unchanged, No change
+_add_leaf(2, a): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(3, s): Internal unchanged, Leaf unchanged, No change
+_add_leaf(3, s): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(4, j): Internal unchanged, Leaf unchanged, Leaf s1: iESO=1, iEO=1
+_traverse_value(5, d): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(5, d): Internal: 1 added, Leaf unchanged, Node: i1
+_add_leaf(5, d): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(5, d): Internal unchanged, Leaf unchanged, Node: i0
+_traverse_value(5, d): Internal unchanged, Leaf unchanged, No change
+_add_leaf(5, d): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(6, f): Internal unchanged, Leaf unchanged, Leaf s0: iESO=0, iEO=1
+_traverse_value(7, j): Internal unchanged, Leaf unchanged, Leaf s0: iESO=0, iEO=2
+_traverse_value(8, a): Internal unchanged, Leaf unchanged, Leaf s0: iESO=0, iEO=3
+_traverse_value(9, s): Internal unchanged, Leaf unchanged, Leaf s0: iESO=0, iEO=4
+_traverse_value(10, d): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(10, d): Internal: 1 added, Leaf unchanged, Node: i2
+_add_leaf(10, d): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(10, d): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(10, d): Internal unchanged, Leaf unchanged, Leaf s1: iESO=2, iEO=2
+_traverse_value(10, d): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(10, d): Internal: 1 added, Leaf unchanged, Node: i3
+_add_leaf(10, d): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(10, d): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(10, d): Internal unchanged, Leaf unchanged, Leaf s2: iESO=2, iEO=2
+_traverse_value(10, d): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(10, d): Internal: 1 added, Leaf unchanged, Node: i4
+_add_leaf(10, d): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(10, d): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(10, d): Internal unchanged, Leaf unchanged, Leaf s3: iESO=3, iEO=1
+_traverse_value(10, d): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(10, d): Internal: 1 added, Leaf unchanged, Node: i5
+_add_leaf(10, d): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(10, d): Internal unchanged, Leaf unchanged, Node: i0
+_traverse_value(10, d): Internal unchanged, Leaf unchanged, Leaf s5: iESO=5, iEO=1
+_traverse_value(11, j): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(11, j): Internal: 1 added, Leaf unchanged, Node: i6
+_add_leaf(11, j): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(11, j): Internal unchanged, Leaf unchanged, Node: i0
+_traverse_value(11, j): Internal unchanged, Leaf unchanged, Node: i1
+_traverse_value(12, f): Internal unchanged, Leaf unchanged, No change
+_add_leaf(12, f): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(13, j): Internal unchanged, Leaf unchanged, No change
+_add_leaf(13, j): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(14, a): Internal unchanged, Leaf unchanged, Internal Edge to: node=3, iESO=2, iEO=1
+_traverse_value(15, s): Internal unchanged, Leaf unchanged, Node: i3
+_traverse_value(16, d): Internal unchanged, Leaf unchanged, Leaf s7: iESO=10, iEO=1
+_traverse_value(17, j): Internal unchanged, Leaf unchanged, Leaf s7: iESO=10, iEO=2
+_traverse_value(18, f): Internal unchanged, Leaf unchanged, Leaf s7: iESO=10, iEO=3
+_traverse_value(19, a): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(19, a): Internal: 1 added, Leaf unchanged, Node: i7
+_add_leaf(19, a): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(19, a): Internal unchanged, Leaf unchanged, Node: i4
+_skip_count_down(19, a): Internal unchanged, Leaf unchanged, Leaf s8: iESO=10, iEO=3
+_traverse_value(19, a): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(19, a): Internal: 1 added, Leaf unchanged, Node: i8
+_add_leaf(19, a): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(19, a): Internal unchanged, Leaf unchanged, Node: i5
+_skip_count_down(19, a): Internal unchanged, Leaf unchanged, Leaf s9: iESO=10, iEO=3
+_traverse_value(19, a): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(19, a): Internal: 1 added, Leaf unchanged, Node: i9
+_add_leaf(19, a): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(19, a): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(19, a): Internal unchanged, Leaf unchanged, Leaf s10: iESO=11, iEO=2
+_traverse_value(19, a): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(19, a): Internal: 1 added, Leaf unchanged, Node: i10
+_add_leaf(19, a): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(19, a): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(19, a): Internal unchanged, Leaf unchanged, Leaf s11: iESO=12, iEO=1
+_traverse_value(19, a): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(19, a): Internal: 1 added, Leaf unchanged, Node: i11
+_add_leaf(19, a): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(19, a): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(19, a): Internal unchanged, Leaf unchanged, Internal Edge to: node=2, iESO=0, iEO=1
+_traverse_value(19, a): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(19, a): Internal: 1 added, Leaf unchanged, Node: i12
+_add_leaf(19, a): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(19, a): Internal unchanged, Leaf unchanged, Node: i0
+_traverse_value(19, a): Internal unchanged, Leaf unchanged, Internal Edge to: node=4, iESO=2, iEO=1
+_traverse_value(20, j): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(20, j): Internal: 1 added, Leaf unchanged, Node: i13
+_add_leaf(20, j): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(20, j): Internal unchanged, Leaf unchanged, Node: i0
+_traverse_value(20, j): Internal unchanged, Leaf unchanged, Node: i1
+_traverse_value(21, s): Internal unchanged, Leaf unchanged, No change
+_add_leaf(21, s): Internal unchanged, Leaf: 1 added, No change
+_traverse_value(22, d): Internal unchanged, Leaf unchanged, Leaf s4: iESO=5, iEO=1
+_traverse_value(23, j): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(23, j): Internal: 1 added, Leaf unchanged, Node: i14
+_add_leaf(23, j): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(23, j): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(23, j): Internal unchanged, Leaf unchanged, Node: i6
+_traverse_value(23, j): Internal unchanged, Leaf unchanged, Internal Edge to: node=10, iESO=11, iEO=1
+_traverse_value(24, f): Internal unchanged, Leaf unchanged, Node: i10
+_traverse_value(25, a): Internal unchanged, Leaf unchanged, Leaf s16: iESO=19, iEO=1
+_traverse_value(26, j): Internal unchanged, Leaf unchanged, Leaf s16: iESO=19, iEO=2
+_traverse_value(27, s): Internal unchanged, Leaf unchanged, Leaf s16: iESO=19, iEO=3
+_traverse_value(28, d): Internal unchanged, Leaf unchanged, Leaf s16: iESO=19, iEO=4
+_traverse_value(29, j): Internal unchanged, Leaf unchanged, Leaf s16: iESO=19, iEO=5
+_traverse_value(30, f): Internal unchanged, Leaf unchanged, Leaf s16: iESO=19, iEO=6
+_traverse_value(31, a): Internal unchanged, Leaf unchanged, Leaf s16: iESO=19, iEO=7
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i15
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i11
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Leaf s17: iESO=19, iEO=7
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i16
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i12
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Leaf s18: iESO=19, iEO=7
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i17
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Leaf s19: iESO=20, iEO=6
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i18
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Leaf s20: iESO=21, iEO=5
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i19
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Leaf s15: iESO=19, iEO=1
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i20
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i10
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Internal Edge to: node=15, iESO=19, iEO=1
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i21
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i11
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Internal Edge to: node=16, iESO=19, iEO=1
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i22
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i12
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Internal Edge to: node=17, iESO=19, iEO=1
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(32, s): Internal: 1 added, Leaf unchanged, Node: i23
+_add_leaf(32, s): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(32, s): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(32, s): Internal unchanged, Leaf unchanged, Node: i13
+_traverse_value(32, s): Internal unchanged, Leaf unchanged, Node: i4
+_traverse_value(33, d): Internal unchanged, Leaf unchanged, Internal Edge to: node=8, iESO=10, iEO=1
+_traverse_value(34, j): Internal unchanged, Leaf unchanged, Internal Edge to: node=8, iESO=10, iEO=2
+_traverse_value(35, j): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(35, j): Internal: 1 added, Leaf unchanged, Node: i24
+_add_leaf(35, j): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(35, j): Internal unchanged, Leaf unchanged, Node: i5
+_skip_count_down(35, j): Internal unchanged, Leaf unchanged, Internal Edge to: node=9, iESO=10, iEO=2
+_traverse_value(35, j): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(35, j): Internal: 1 added, Leaf unchanged, Node: i25
+_add_leaf(35, j): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(35, j): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(35, j): Internal unchanged, Leaf unchanged, Internal Edge to: node=10, iESO=11, iEO=1
+_traverse_value(35, j): Internal unchanged, Leaf unchanged, No change
+_split_internal_edge(35, j): Internal: 1 added, Leaf unchanged, Node: i26
+_add_leaf(35, j): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(35, j): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(35, j): Internal unchanged, Leaf unchanged, Node: i1
+_traverse_value(35, j): Internal unchanged, Leaf unchanged, Leaf s12: iESO=13, iEO=1
+_traverse_value(36, j): Internal unchanged, Leaf unchanged, No change
+_split_leaf_edge(36, j): Internal: 1 added, Leaf unchanged, Node: i27
+_add_leaf(36, j): Internal unchanged, Leaf: 1 added, No change
+_goto_suffix(36, j): Internal unchanged, Leaf unchanged, Node: i0
+_skip_count_down(36, j): Internal unchanged, Leaf unchanged, Node: i1
+_traverse_value(36, j): Internal unchanged, Leaf unchanged, Node: i27
